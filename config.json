@@ -1,0 +1,14 @@
+{
+  "title": "SPC Report (Demo) — Mixing Tank MT-01",
+  "parameter": "Product_Temperature_End",
+  "unit": "°C",
+  "spec_limits": {
+    "LSL": 98.0,
+    "USL": 102.0
+  },
+  "chart_type": "I-MR",
+  "run_rules": {
+    "beyond_3sigma": true,
+    "run_8_one_side": true
+  }
+}
